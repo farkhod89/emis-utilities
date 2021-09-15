@@ -9,6 +9,11 @@ public final class AuthoritiesConstants {
     public static final String ROLE_ADMIN = "ROLE_ADMIN";
     public static final String ROLE_USER = "ROLE_USER";
     public static final String ROLE_ANONYMOUS = "ROLE_ANONYMOUS";
+    // Заведующий
+    public static final String ROLE_MANAGER = "ROLE_MANAGER";
+    public static final String ROLE_REGION_IKT = "ROLE_REGION_IKT";
+    public static final String ROLE_DISTRICT_IKT = "ROLE_DISTRICT_IKT";
+
 
     //region Управление справочником
     public static final String ROLE_SETTING_DICTIONARY_VIEW = "ROLE_SETTING_DICTIONARY_VIEW";
