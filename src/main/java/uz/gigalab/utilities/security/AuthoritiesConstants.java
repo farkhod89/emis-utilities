@@ -1,5 +1,7 @@
 package uz.gigalab.utilities.security;
 
+import java.util.Set;
+
 /**
  * Constants for Spring Security authorities.
  */
@@ -87,5 +89,9 @@ public final class AuthoritiesConstants {
     public static final String ROLE_EDUCATION_GROUP_CURRENT_EDIT = "ROLE_EDUCATION_GROUP_CURRENT_EDIT";
     //endregion
 
+
+    public static Set<String> protectedRoles = Set.of(
+        ROLE_ADMIN, ROLE_SYSTEM, ROLE_MANAGER, ROLE_REGION_IKT, ROLE_DISTRICT_IKT
+    );
 
 }
